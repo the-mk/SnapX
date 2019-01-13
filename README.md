@@ -2,6 +2,8 @@
 
 > Check Token Amount on Snapshot Date
 
+Live Demo: [DEMO](https://snapx-epnlumhlwl.now.sh).
+
 ## Build Setup
 
 ``` bash
