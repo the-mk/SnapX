@@ -44,7 +44,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'semantic-ui-vue/nuxt', // includes styles from semantic-ui-css
   ],
   /*
   ** Axios module configuration

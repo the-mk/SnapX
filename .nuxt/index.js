@@ -11,6 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+import nuxt_plugin_semanticuivue_46b1ef75 from 'nuxt_plugin_semanticuivue_46b1ef75' // Source: ./semantic-ui-vue.js
 import nuxt_plugin_axios_7052fef3 from 'nuxt_plugin_axios_7052fef3' // Source: ./axios.js
 
 // Component: <no-ssr>
@@ -129,6 +130,7 @@ async function createApp(ssrContext) {
 
   // Plugin execution
 
+  if (typeof nuxt_plugin_semanticuivue_46b1ef75 === 'function') await nuxt_plugin_semanticuivue_46b1ef75(app.context, inject)
   if (typeof nuxt_plugin_axios_7052fef3 === 'function') await nuxt_plugin_axios_7052fef3(app.context, inject)
 
   // If server-side, wait for async component to be resolved first
